@@ -15,7 +15,7 @@ An Express.js-based backend API for managing bike services and customers. It inc
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL (Prisma ORM)
 - **ORM:** Prisma
-- **Deployment:** Railway
+- **Deployment:** Render
 - **Error Handling:** Global custom middleware
 - **UUID & Dates:** Prisma defaults
 
