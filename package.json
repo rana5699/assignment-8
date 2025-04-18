@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
    
-    "start": "node dist/index.js",
-    "build": "tsc --watch",
+    "prod": "NODE_ENV=production node dist/index.js",
+    "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
