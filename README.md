@@ -6,7 +6,7 @@ An Express.js-based backend API for managing bike services and customers. It inc
 
 ## 🌐 Live Backend
 
-🚀 [Live API on Railway](https://your-live-api-link.com)  
+🚀 [Live API on Render](https://your-live-api-link.com)  
 
 ---
 
@@ -15,7 +15,7 @@ An Express.js-based backend API for managing bike services and customers. It inc
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL (Prisma ORM)
 - **ORM:** Prisma
-- **Deployment:** Railway
+- **Deployment:** Render
 - **Error Handling:** Global custom middleware
 - **UUID & Dates:** Prisma defaults
 
@@ -67,4 +67,4 @@ To run this project, you will need to add the following environment variables to
 - 🛑 **Global Error Handler** for cleaner debugging
 - 📦 **Prisma ORM** integration with PostgreSQL
 - 🔐 **Unique UUIDs** for customer, bike, and service IDs
-- 🚀 **Production-ready Deployment** via Railway
+- 🚀 **Production-ready Deployment** via Render
