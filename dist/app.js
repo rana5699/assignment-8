@@ -13,9 +13,15 @@ const record_routes_1 = require("./modules/ServiceRecord/record.routes");
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use(express_1.default.json());
-app.use('/api/v1', customer_routes_1.customerRoutes);
-app.use('/api/v1', bike_routes_1.bikeRoutes);
-app.use('/api/v1', record_routes_1.recordRoutes);
+app.use("/api", customer_routes_1.customerRoutes);
+app.use("/api", bike_routes_1.bikeRoutes);
+app.use("/api", record_routes_1.recordRoutes);
+app.get("/", (req, res) => {
+    res.json({
+        success: true,
+        message: "Welcome to BikeService center point",
+    });
+});
 // global error handler
 app.use(globalErrorHandler_1.default);
 // not found

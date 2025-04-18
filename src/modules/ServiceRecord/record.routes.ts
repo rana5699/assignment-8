@@ -3,6 +3,9 @@ import { RecordControllers } from "./record.controller";
 
 const router = express.Router();
 
+// Bonus
+router.get("/services/status",RecordControllers.getPendingOrOverdue)
+
 router.post("/services", RecordControllers.createRecord);
 
 router.get("/services", RecordControllers.getAllRecordServices);
@@ -15,8 +18,7 @@ router.put(
 );
 
 
-// Bonus
-router.get("/service/status",RecordControllers.getPendingOrOverdue)
+
 
 
 export const recordRoutes = router;
